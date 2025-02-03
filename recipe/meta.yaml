@@ -1,5 +1,5 @@
 {% set name = "radar-api" %}
-{% set version = "0.0.1" %}
+{% set version = "0.1.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/radar_api-{{ version }}.tar.gz
-  sha256: 928f495e91ab439f2b687e9e159f313aa8d58b68638ae2201d2adcbb3303facc
+  sha256: 0238a6008653b05af16e6716cd5991f0b91f5bec8b6915c9ef7d9dd45084b203
 
 build:
   noarch: python
